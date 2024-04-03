@@ -1,7 +1,7 @@
 @page {
   /*The A4 paper size is 210 mm wide by 297 mm long*/
   size: 210mm 297mm;
-  /* border: 1px solid slateblue; */
+  border: 1px solid slateblue;
   margin: 12mm 12mm 15mm 12mm;
 }
 
@@ -392,14 +392,18 @@ ul.inline-task-list li {
 
 /* -------------------------------------------------------------------------------- */
 
-/* Note Macros
-.noteMacro {
-  min-width: 185mm !important;
-  max-width: 185mm !important;
-  width: 185mm !important;
+/* Note Macros */
+.noteMacro,
+.panelMacro,
+.panelContent,
+.panel {
+  min-width: 200mm !important;
+  max-width: 200mm !important;
+  width: 200mm !important;
   border: 1px orange solid !important;
-  margin: 5mm !important;
-} */
+  /* margin: 5mm !important; */
+}
+
 
 .panelMacro {
   background-color: #ff0000 !important;
@@ -408,8 +412,8 @@ ul.inline-task-list li {
 .panelContent {
   /* background-color: #ff0000 !important; */
   position: relative;
-  /* margin: 2mm 0mm !important; */
-  padding: 1mm 2mm 2mm 8mm !important;
+  margin: 2mm 0mm !important;
+  /* padding: 1mm 2mm 2mm 8mm !important; */
   border-radius: 0.3mm !important;
   border: 1px rgb(0, 26, 255) solid !important;
   color: #262626;
