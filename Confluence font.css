@@ -395,28 +395,22 @@ ul.inline-task-list li {
 /* Note Macros */
 .noteMacro,
 .panelMacro,
-.panelContent,
 .panel {
-  min-width: 200mm !important;
-  max-width: 200mm !important;
-  width: 200mm !important;
-  border: 1px orange solid !important;
-  /* margin: 5mm !important; */
-}
-
-
-.panelMacro {
-  background-color: #ff0000 !important;
+  min-width: 185mm !important;
+  max-width: 185mm !important;
+  width: 185mm !important;
+  padding: 0 !important;
 }
 
 .panelContent {
-  /* background-color: #ff0000 !important; */
   position: relative;
-  margin: 2mm 0mm !important;
-  /* padding: 1mm 2mm 2mm 8mm !important; */
-  border-radius: 0.3mm !important;
-  border: 1px rgb(0, 26, 255) solid !important;
   color: #262626;
+}
+
+.panelContent p {
+  border: 1px solid sandybrown;
+  margin-bottom: 0 !important;
+  margin-bottom: 5mm;
 }
 
 .panelContent::before {
