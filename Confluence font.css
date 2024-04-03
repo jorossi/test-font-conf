@@ -1,0 +1,480 @@
+@page {
+  /*The A4 paper size is 210 mm wide by 297 mm long*/
+  size: 210mm 297mm;
+  /* border: 1px solid slateblue; */
+  margin: 12mm 12mm 15mm 12mm;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2)
+    format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329,
+    U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptsg8zYS_SKggPNyCg4TYFq.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCAIT5lu.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCkIT5lu.woff2)
+    format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCIIT5lu.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329,
+    U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyCMIT5lu.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyC0ITw.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#pageNum:before {
+  content: counter(page);
+}
+
+#pageNum {
+  font-size: 12px;
+  text-align: right; /* Adjusted to center */
+  display: block !important; /* Makes the span behave like a block-level element */
+  color: #a3a3a3;
+  font-weight: 600;
+}
+
+/* //
+//
+//
+//
+// Style definitions for Tables */
+table {
+  clear: left;
+  page-break-before: auto;
+  page-break-after: auto;
+  page-break-inside: avoid !important;
+  width: 175mm !important;
+  table-layout: auto !important;
+  word-wrap: normal;
+}
+
+/* //
+//
+//
+//
+// Style definitions for The first two collumns of tables*/
+table tr th:first-child,
+tbody tr td:first-child,
+table colgroup col:first-child,
+table tr th:nth-child(2),
+tbody tr td:nth-child(2),
+table colgroup col:nth-child(2) {
+  word-break: break-all;
+}
+
+table tr th:first-child,
+tbody tr td:first-child,
+table colgroup col:first-child {
+  width: 18mm !important;
+  min-width: 18mm !important;
+  max-width: 18mm !important;
+}
+
+table tr th:nth-child(2),
+tbody tr td:nth-child(2),
+table colgroup col:nth-child(2) {
+  width: 40mm !important;
+  min-width: 40mm !important;
+  max-width: 40mm !important;
+}
+
+/* Table header font weight style*/
+tr th p strong {
+  font-weight: 100 !important;
+}
+
+/* Table contents font size  */
+tbody tr td,
+tbody tr td p {
+  font-size: 14px !important;
+}
+
+/* //
+//
+//
+//
+// Style definitions for Header and Footer. */
+
+.footerTable,
+.headerTable {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 185mm !important;
+}
+
+.footerTable td,
+.headerContainer td {
+  padding: 0 4mm;
+}
+
+.footerTable td img {
+  width: 15mm;
+  aspect-ratio: inherit;
+  padding: 0 !important;
+}
+
+.footerDevider {
+  margin-bottom: 3mm;
+  border-top: 1px solid #d4d4d8;
+}
+
+.footerContainer {
+  height: 15mm !important;
+}
+
+.headerContainer {
+  margin-top: 5mm;
+  height: 5mm !important;
+}
+
+.headerContainer,
+.headerTable {
+  /* border: 1px solid black !important;  */
+  vertical-align: baseline;
+}
+
+.headerContainer .headerTable tr td:nth-child(2) p,
+.headerContainer .headerTable tr td:last-child p,
+.footerContainer .footerTable tr td:nth-child(2) {
+  text-align: center !important;
+}
+
+.headerContainer .headerTable tr td p {
+  color: #777777;
+  font-size: 12px !important;
+}
+
+.headerContainer .headerTable tr td:last-child p {
+  text-align: right !important;
+}
+
+.footerContainer .footerTable tr td:nth-child(2) a {
+  font-size: 12px;
+  color: #777777;
+}
+
+/* //
+//
+//
+//
+// Set a page break everywhere there is a Divider */
+hr {
+  page-break-after: always;
+  visibility: hidden;
+}
+
+/* //
+//
+//
+//
+// Set type settings and styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500 !important;
+  line-height: 1.15;
+  page-break-inside: avoid !important;
+  padding: 1mm 0mm;
+  color: #111;
+  margin: 0px !important;
+  padding: 6px 0 !important;
+}
+
+h1 {
+  font-size: 21px !important;
+}
+h2 {
+  font-size: 19px !important;
+}
+h3 {
+  font-size: 18px !important;
+}
+
+h4 {
+  font-size: 17px !important;
+}
+
+h5,
+h6 {
+  font-size: 16px !important;
+}
+
+p {
+  font-size: 15px;
+  color: #111;
+  line-height: 155%;
+  hyphens: auto;
+  text-align: left;
+  margin-bottom: 1.2mm;
+}
+
+p:last-child {
+  margin-bottom: 0mm;
+}
+
+/* Overall image settings */
+img {
+  page-break-before: auto;
+  page-break-after: auto;
+  page-break-inside: avoid !important;
+  align-items: center;
+  padding: 5mm 0mm;
+}
+
+/* Overall unordered lists settings */
+ul li {
+  margin-bottom: 0.8mm;
+}
+
+/* Avoid splitting lists on two or more pages */
+ul,
+ol {
+  page-break-before: auto;
+  page-break-after: auto;
+  page-break-inside: avoid !important;
+}
+
+/* //
+//
+//
+//
+//
+// Table of contents */
+/* Make the space between the title and the page number white*/
+span.toclead:before {
+  content: leader(space);
+}
+
+div.toc {
+  page-break-after: always;
+  counter-reset: chapter 0;
+}
+
+div.toc {
+  font-size: 15px !important;
+  text-decoration: none;
+  line-height: 200%; /* More spacing in between lines */
+}
+
+/* //
+//
+//
+//
+//
+
+/* .panelMacro,
+.panelMacro table,
+.panelMacro td,
+.panel,
+.codeHeader,
+.panelHeader,
+.panelContent,
+.code,
+.preformatted,
+.preformattedHeader,
+.codeContent,
+.preformattedContent,
+.tipMacro,
+.warningMacro,
+.errorBox {
+   border: 1px orange solid !important; 
+  background-color: cmyk(20%, 0%, 0%, 0%) !important;
+  margin: 2mm 0mm !important;
+  padding: 0mm 2mm !important;
+  border-radius: 0.3mm !important; 
+  color: #262626;
+}
+ */
+
+ul.inline-task-list li {
+  margin-left: 1mm !important;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* Note Macros
+.noteMacro {
+  min-width: 185mm !important;
+  max-width: 185mm !important;
+  width: 185mm !important;
+  border: 1px orange solid !important;
+  margin: 5mm !important;
+} */
+
+.panelMacro {
+  background-color: #ff0000 !important;
+}
+
+.panelContent {
+  /* background-color: #ff0000 !important; */
+  position: relative;
+  /* margin: 2mm 0mm !important; */
+  padding: 1mm 2mm 2mm 8mm !important;
+  border-radius: 0.3mm !important;
+  border: 1px rgb(0, 26, 255) solid !important;
+  color: #262626;
+}
+
+.panelContent::before {
+  content: "";
+  position: absolute;
+  left: 2mm;
+  top: 20%;
+  transform: translateY(-50%);
+  width: 4mm; /* Size of the icon */
+  height: 4mm; /* Size of the icon */
+  background-image: url("https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f3be.png");
+  background-size: cover;
+}
+
+.panelMacro table {
+  background-color: #00bfff !important; /* Deep Sky Blue */
+}
+
+.panelMacro td {
+  background-color: #ff6347 !important; /* Tomato */
+}
+
+.panel {
+  background-color: #7fff00 !important; /* Chartreuse */
+}
+
+.codeHeader {
+  background-color: #6a5acd !important; /* Slate Blue */
+}
+
+.panelHeader {
+  background-color: #ff69b4 !important; /* Hot Pink */
+}
+
+.code {
+  background-color: #40e0d0 !important; /* Turquoise */
+}
+
+.preformatted {
+  background-color: #ff8c00 !important; /* Dark Orange */
+}
+
+.preformattedHeader {
+  background-color: #9370db !important; /* Medium Purple */
+}
+
+.codeContent {
+  background-color: #d3d3d3 !important; /* Light Gray */
+}
+
+.preformattedContent {
+  background-color: #8a2be2 !important; /* Blue Violet */
+}
+
+.tipMacro {
+  background-color: #98fb98 !important; /* Pale Green */
+}
+
+.warningMacro {
+  background-color: #dc143c !important; /* Crimson */
+}
+
+.errorBox {
+  background-color: #ff4500 !important; /* Orange Red */
+}
