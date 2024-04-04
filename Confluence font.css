@@ -179,11 +179,11 @@ tr th p strong {
   font-weight: 100 !important;
 }
 
-/* Table contents font size  */
+/* Table contents font size 
 tbody tr td,
 tbody tr td p {
   font-size: 14px !important;
-}
+} */
 
 /* //
 //
@@ -438,4 +438,12 @@ Panel Content Styling
 
 .panelContent p {
   margin-bottom: 0 !important;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+/* Excerpts fix font size */
+
+body table:nth-child(6) tbody tr td p {
+
 }
