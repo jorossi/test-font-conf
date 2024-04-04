@@ -1,7 +1,6 @@
 @page {
   /*The A4 paper size is 210 mm wide by 297 mm long*/
   size: 210mm 297mm;
-  border: 1px solid slateblue;
   margin: 12mm 12mm 15mm 12mm;
 }
 
@@ -392,87 +391,51 @@ ul.inline-task-list li {
 
 /* -------------------------------------------------------------------------------- */
 
-/* Note Macros */
+/* Note and Panel Macros Styling */
 .noteMacro,
 .panelMacro,
 .panel {
-  min-width: 185mm !important;
-  max-width: 185mm !important;
-  width: 185mm !important;
-  padding: 0 !important;
+  width: 176mm !important;
+  min-width: 176mm !important;
+  max-width: 176mm !important;
+  margin: 5mm 0 5mm 0 !important;
+  padding: 1.5mm 0 2mm 0 !important;
+  border: none !important;
 }
 
+/* -------------------------------------------------------------------------------- */
+/* 
+Panel Content Styling
 .panelContent {
   position: relative;
   color: #262626;
 }
 
 .panelContent p {
-  border: 1px solid sandybrown;
   margin-bottom: 0 !important;
-  margin-bottom: 5mm;
+  margin-left: 5mm !important;
 }
 
 .panelContent::before {
   content: "";
   position: absolute;
-  left: 2mm;
   top: 20%;
-  transform: translateY(-50%);
-  width: 4mm; /* Size of the icon */
-  height: 4mm; /* Size of the icon */
+  left: 2mm;
+  width: 4mm; Size of the icon
+  height: 4mm; Size of the icon
   background-image: url("https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/caa27a19-fc09-4452-b2b4-a301552fd69c/32x32/1f3be.png");
   background-size: cover;
+  transform: translateY(-50%);
+} */
+
+/* -------------------------------------------------------------------------------- */
+/* Pannel witouth icon */
+
+/* Panel Content Styling */
+.panelContent {
+  color: #262626;
 }
 
-.panelMacro table {
-  background-color: #00bfff !important; /* Deep Sky Blue */
-}
-
-.panelMacro td {
-  background-color: #ff6347 !important; /* Tomato */
-}
-
-.panel {
-  background-color: #7fff00 !important; /* Chartreuse */
-}
-
-.codeHeader {
-  background-color: #6a5acd !important; /* Slate Blue */
-}
-
-.panelHeader {
-  background-color: #ff69b4 !important; /* Hot Pink */
-}
-
-.code {
-  background-color: #40e0d0 !important; /* Turquoise */
-}
-
-.preformatted {
-  background-color: #ff8c00 !important; /* Dark Orange */
-}
-
-.preformattedHeader {
-  background-color: #9370db !important; /* Medium Purple */
-}
-
-.codeContent {
-  background-color: #d3d3d3 !important; /* Light Gray */
-}
-
-.preformattedContent {
-  background-color: #8a2be2 !important; /* Blue Violet */
-}
-
-.tipMacro {
-  background-color: #98fb98 !important; /* Pale Green */
-}
-
-.warningMacro {
-  background-color: #dc143c !important; /* Crimson */
-}
-
-.errorBox {
-  background-color: #ff4500 !important; /* Orange Red */
+.panelContent p {
+  margin-bottom: 0 !important;
 }
